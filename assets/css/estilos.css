@@ -1,0 +1,105 @@
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+#divBoton {
+    text-align: center;
+}
+
+#circular {
+    border-radius: 50%;
+}
+
+h2 {
+    margin-bottom: 5vh;
+}
+
+header {
+    text-align: center;
+    background-color: #F9F7F7;
+}
+
+#navbar {
+    overflow: hidden;
+    background-color: #112D4E;
+    z-index: 999;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+section {
+    background-color: #DBE2EF;
+}
+
+.contenedorArriba {
+    margin-top: 5vh;
+}
+
+.col,
+.container {
+    font-size: 24pt;
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+}
+
+.textoEstandar {
+    text-align: center;
+    font-size: 20pt;
+    color: #DBE2EF;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.formulario {
+    width: 50vh;
+    display: block;
+}
+
+footer {
+    background-color: #112D4E;
+}
+
+.textoCentrado {
+    text-align: center;
+    font-size: 20pt;
+}
+
+.botones {
+    font-size: 12pt;
+}
+
+#bio {
+    margin-bottom: 3vh;
+}
+
+.mt-2 {
+    color: #DBE2EF;
+}
+
+.carousel {
+    z-index: 0;
+}
