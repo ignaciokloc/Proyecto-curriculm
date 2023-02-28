@@ -57,4 +57,16 @@ const emailValido = email => {
 
 botonFormulario.addEventListener('click', validar)
 
+fetch('https://jsonplaceholder.typicode.com/users/1')
+  .then(response => response.json())
+  .then(json => console.log(json))
 
+if (localStorage.clickcount) {
+  localStorage.clickcount = Number(localStorage.clickcount) + 1;
+} else {
+  localStorage.clickcount = 1;
+}
+
+emailFormulario.addEventListener("focusout", function() {
+  localStorage.setItem("em", emailFormulario.value);
+})

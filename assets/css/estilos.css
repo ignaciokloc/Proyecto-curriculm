@@ -98,8 +98,10 @@ footer {
 
 .mt-2 {
     color: #DBE2EF;
+    padding-right: 2vh;
 }
 
 .carousel {
     z-index: 0;
 }
+
